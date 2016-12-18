@@ -16,7 +16,7 @@ variable "bastion_instance_type" {
 variable "bastion_ami" {
   default = {
     "eu-central-1" = "ami-f652979b"
-    "eu-central-1" = "ami-7c4b331c"
+    "eu-central-1" = "ami-8504fdea"
   }
 }
 
