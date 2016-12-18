@@ -26,8 +26,8 @@ variable "private_subnets" {
 
 variable "ami" {
   default = {
-    "us-east-1" = "ami-f652979b"
-    "us-west-1" = "ami-7c4b331c"
+    "eu-central-1" = "ami-f652979b"
+    "eu-central-1" = "ami-7c4b331c"
   }
 
   description = "The AMIs to use for web and app instances."
@@ -49,8 +49,8 @@ variable "bastion_instance_type" {
 
 variable "bastion_ami" {
   default = {
-    "us-east-1" = "ami-f652979b"
-    "us-west-1" = "ami-7c4b331c"
+    "eu-central-1" = "ami-f652979b"
+    "eu-central-1" = "ami-7c4b331c"
   }
 
   description = "The bastion host AMIs."
