@@ -2,6 +2,10 @@ variable "region" {
   description = "The AWS region."
 }
 
+variable "vpc_id" {
+  description = "The VPC ID to launch in"
+}
+
 variable "environment" {
   description = "The name of our environment, i.e. development."
 }
@@ -36,10 +40,6 @@ variable "ami" {
 variable "instance_type" {
   default     = "t2.micro"
   description = "The instance type to launch "
-}
-
-variable "vpc_id" {
-  description = "The VPC ID to launch in"
 }
 
 variable "bastion_instance_type" {
